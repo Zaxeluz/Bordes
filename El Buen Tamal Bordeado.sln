@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "El Buen Tamal Bordeado", "El Buen Tamal Bordeado\El Buen Tamal Bordeado.csproj", "{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Debug|x64.ActiveCfg = Debug|x64
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Debug|x64.Build.0 = Debug|x64
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Release|x64.ActiveCfg = Release|x64
+		{3E3F2F99-68C1-4792-93E1-F9D83BBC882C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {411EEEE1-A42A-4932-8546-387EE2CC18C1}
+	EndGlobalSection
+EndGlobal
