@@ -55,5 +55,33 @@ namespace El_Buen_Tamal_Bordeado
             TamalitoCanny = Tamalito.Canny(50, 30);
             imageBox1.Image = TamalitoCanny;
         }
+
+        private void sobelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Tamalito == null)
+            {
+                return;
+            }
+
+            Image<Gray, byte> TamalitoGray = Tamalito.Convert<Gray, byte>();
+            Image<Gray, float> TamalitoSobel = new Image<Gray, float>(Tamalito.Width, Tamalito.Height, new Gray(0));
+
+            TamalitoSobel = TamalitoGray.Sobel(1, 1, 1);
+            imageBox1.Image = TamalitoSobel;
+        }
+
+        private void laplacianToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Tamalito == null)
+            {
+                return;
+            }
+
+            Image<Gray, byte> TamalitoGray = Tamalito.Convert<Gray, byte>();
+            Image<Gray, float> TamalitoLaplacian = new Image<Gray, float>(Tamalito.Width, Tamalito.Height, new Gray(0));
+
+            TamalitoLaplacian = TamalitoGray.Laplace(9);
+            imageBox1.Image = TamalitoLaplacian;
+        }
     }
 }
